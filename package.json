@@ -4,8 +4,7 @@
   "description": "Starter pack using gulp",
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    //"postinstall": "gulp default"
+    "start": "gulp"
   },
   "author": "Brad Traversy",
   "license": "ISC",

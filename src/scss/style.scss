@@ -1,8 +1,31 @@
 $bg-color: #000;
 $bg-color2: #333;
-$color: #fff;
+$main-purple: rgb(130, 55, 112);
+
 
 body {
-    background: $bg-color2;
-    color:$color;
+    //background: $bg-color2;
+    //color:$color;
+}
+
+nav{
+    //background-color: white !important;
+    //text-color: $main-purple;
+}
+
+.navIcon{
+    color: $main-purple;
+}
+
+#navLogo{
+    width: 300px;
+}
+
+.bodyWrap{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.bodyDiv:nth-child(odd){
+    //background-color: blue;
 }

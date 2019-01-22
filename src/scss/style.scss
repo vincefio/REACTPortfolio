@@ -2,6 +2,11 @@ $bg-color: #000;
 $bg-color2: #333;
 $main-purple: rgb(130, 55, 112);
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
 
 body {
     //background: $bg-color2;
@@ -28,4 +33,9 @@ nav{
 
 .bodyDiv:nth-child(odd){
     //background-color: blue;
+}
+
+.headerWrap{
+    height: 100vh;
+    //background-color: lighten($main-purple, 50%)
 }

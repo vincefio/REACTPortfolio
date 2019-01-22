@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
 .navIcon {
   color: #823770; }
 
@@ -7,3 +13,6 @@
 .bodyWrap {
   display: grid;
   grid-template-columns: 1fr; }
+
+.headerWrap {
+  height: 100vh; }

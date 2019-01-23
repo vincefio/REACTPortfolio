@@ -46,7 +46,7 @@ nav{
 }
 
 .headerWrap{
-    height: 100vh;
+    height: 90vh;
     //background-color: lighten($main-purple, 50%)
     font-family: 'Quicksand', sans-serif;
     display: grid;
@@ -65,7 +65,11 @@ nav{
     border: 2px solid $main-orange;
     display: block;
     margin: 0 auto;
-    bottom: 50px;
+    bottom: 20px;
+}
+
+#workLink:hover{
+    background-color: $main-orange;
 }
 
 #catchPhrase{

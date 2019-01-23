@@ -20,7 +20,7 @@
   grid-template-columns: 1fr; }
 
 .headerWrap {
-  height: 100vh;
+  height: 90vh;
   font-family: 'Quicksand', sans-serif;
   display: grid;
   grid-template-rows: 1fr 3fr 1fr; }
@@ -37,7 +37,10 @@
   border: 2px solid #ef9217;
   display: block;
   margin: 0 auto;
-  bottom: 50px; }
+  bottom: 20px; }
+
+#workLink:hover {
+  background-color: #ef9217; }
 
 #catchPhrase {
   text-align: center;

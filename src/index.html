@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-
+    
+    
+    
 
 </head>
 
@@ -58,11 +60,11 @@
 
         <div class="headerWrap bodyDiv">
 
-            <div class="parallax-container">
+            <div class="">
                 <h1 id="logoText">
                     <a id="workLink" href="#projects" class="headerButton waves-effect waves-light btn-large">See My Work</a>
 
-                    <h3 id="catchPhrase">making big dreams happen</h3>
+                    <h3 id="catchPhrase"></h3>
 
                 </h1>
 
@@ -181,32 +183,10 @@
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@6.0.1/dist/typeit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script>
-
-        $(document).ready(function () {
-
-            $('.parallax').parallax();
-
-            $('.sidenav').sidenav();
-
-            /*$('#workLink').on('click', (e) => {
-                e.preventDefault()
-            })*/
-
-            $('.content').each(function (i) {
-
-                setTimeout(function () {
-                    // console.log(i)
-                    $('.content').eq(i).addClass('is-visible')
-                }, 300 * i)
-
-            })
-
-
-        });
-
-    </script>
+    <script src="./js/script.js"></script>
+    
 </body>
 
 </html>

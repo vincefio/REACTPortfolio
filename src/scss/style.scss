@@ -1,6 +1,7 @@
-$bg-color: #000;
-$bg-color2: #333;
+
 $main-purple: rgb(130, 55, 112);
+$main-orange: rgb(239, 146, 23);
+$header-font: 'Quicksand', sans-serif;
 
 *{
     box-sizing: border-box;
@@ -47,16 +48,21 @@ nav{
 .headerWrap{
     height: 100vh;
     //background-color: lighten($main-purple, 50%)
+    font-family: 'Quicksand', sans-serif;
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
 }
 
 #workLink{
+    font-family: 'Quicksand', sans-serif;
+    height: 55px;
+    line-height: 48px;
     font-size: 1.4em;
     border-radius: 2em;
+    width: 220px;
     background-color: white;
-    color: $main-purple;
-    border: 2px solid $main-purple;
+    color: darken($main-orange, 20%);
+    border: 2px solid $main-orange;
     display: block;
     margin: 0 auto;
     bottom: 50px;
@@ -64,7 +70,8 @@ nav{
 
 #catchPhrase{
     text-align: center;
-    font-family: 'Arimo', sans-serif;
+    
+    font-weight: 700px;
 }
 
 #drivenToText{

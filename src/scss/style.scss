@@ -30,6 +30,7 @@ nav{
 }
 
 #furiousLogo{
+    height: 80px;
     max-width: 100%;
     margin-top: 3.5rem;
 }
@@ -51,15 +52,24 @@ nav{
 }
 
 #workLink{
+    font-size: 1.4em;
+    border-radius: 2em;
+    background-color: white;
+    color: $main-purple;
+    border: 2px solid $main-purple;
     display: block;
     margin: 0 auto;
-    bottom: 23px;
+    bottom: 50px;
 }
 
 #catchPhrase{
     text-align: center;
+    font-family: 'Arimo', sans-serif;
 }
 
-.ti-wrapper{
-    margin-bottom: 10px;
+#drivenToText{
+    font-weight: 450;
+    margin-left: 45px;
+    margin-top: 23px;
+    margin-bottom: 30px;
 }

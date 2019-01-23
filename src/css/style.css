@@ -7,12 +7,29 @@
 .navIcon {
   color: #823770; }
 
-#navLogo {
-  width: 300px; }
+.nav-item a {
+  color: #823770; }
+
+#furiousLogo {
+  max-width: 100%;
+  margin-top: 3.5rem; }
 
 .bodyWrap {
   display: grid;
   grid-template-columns: 1fr; }
 
 .headerWrap {
-  height: 100vh; }
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr; }
+
+#workLink {
+  display: block;
+  margin: 0 auto;
+  bottom: 23px; }
+
+#catchPhrase {
+  text-align: center; }
+
+.ti-wrapper {
+  margin-bottom: 10px; }

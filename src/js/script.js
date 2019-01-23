@@ -8,21 +8,27 @@ $(document).ready(function () {
         e.preventDefault()
     })*/
     console.log('type it ' + TypeIt)
-    new TypeIt('#catchPhrase', {
-strings: ["This is a great string.", "But here is a better one."],
-speed: 50,
-breakLines: false,
-waitUntilVisible: true
-}).go();
+    /*new TypeIt('#catchPhrase', {
+        strings: ["Design...", "Create..."],
+        speed: 50,
+        breakLines: false,
+        waitUntilVisible: true
+    }).go();*/
 
-    $('.content').each(function (i) {
+    new TypeIt('#catchPhrase', {
+        //strings: ["Design...", "Create...", "Inspire"],
+        speed: 40,
+        waitUntilVisible: true
+      }).go();
+
+   /* $('.content').each(function (i) {
 
         setTimeout(function () {
             // console.log(i)
             $('.content').eq(i).addClass('is-visible')
         }, 300 * i)
 
-    })
+    })*/
 
 
 });

@@ -18,12 +18,20 @@ nav{
     //text-color: $main-purple;
 }
 
+#navLogo{
+    //width: 300px;
+}
 .navIcon{
     color: $main-purple;
 }
 
-#navLogo{
-    width: 300px;
+.nav-item a{
+    color: $main-purple;
+}
+
+#furiousLogo{
+    max-width: 100%;
+    margin-top: 3.5rem;
 }
 
 .bodyWrap{
@@ -38,4 +46,20 @@ nav{
 .headerWrap{
     height: 100vh;
     //background-color: lighten($main-purple, 50%)
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+#workLink{
+    display: block;
+    margin: 0 auto;
+    bottom: 23px;
+}
+
+#catchPhrase{
+    text-align: center;
+}
+
+.ti-wrapper{
+    margin-bottom: 10px;
 }

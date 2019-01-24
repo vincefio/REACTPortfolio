@@ -11,17 +11,22 @@ $(document).ready(function () {
         console.log(positionTop)
 
         /*switch(positionTop){
-            case 175:
+            case (positionTop > 155):
             //alert('hit')
-            $('#profilePic').addClass('fadeIn')
+                $('#profilePic').addClass('fadeIn')
                 break;
-              
+            case(positionTop > 570):
+                $('.firstTwo').addClass('animated rollIn')
+                break;
+            case(positionTop > 800):
+                $('.secondTwo').addClass('animated rollIn')
+                break;
             default:
                 console.log(positionTop)
 
         }*/
 
-        if(positionTop > 155){
+       if(positionTop > 155){
             //$('#aboutMeHeader').addClass('animated rollIn')
             $('#profilePic').addClass('fadeIn')
         }
@@ -38,8 +43,9 @@ $(document).ready(function () {
     $('.portfolioSingleProjectWrap').hover(
         function(){ 
             //alert('working')
-            $('.projectTitle').toggleClass('displayNone') 
-            $('.portfolioProjectDescription').toggleClass('displayNone')
+            $('.portfolioImg', this).toggleClass('displayNone', 1000)
+            $('.projectTitle', this).toggleClass('displayNone') 
+            $('.portfolioProjectDescription', this).toggleClass('displayNone')    
         }
     )
 

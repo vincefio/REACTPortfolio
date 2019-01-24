@@ -178,16 +178,24 @@ padding: 20px;
 
 .portfolioSingleProjectWrap{
     display: grid;
-    //grid-template-rows: 1fr;
-    //justify-items: center;
-    //align-items: center;
+    background-color: #333;
 }
 
 .portfolioProjectDescription{
     text-align: center;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 18%;
     padding: 15px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.portfolioImg{
+    min-height: 100% !important;
+}
+
+.portfolioProjectDescription div {
+    margin-bottom: 35px;
 }
 
 .projectTitle{
@@ -201,4 +209,22 @@ padding: 20px;
 
 .displayNone{
     display:none;
+    //animation: fadeIn 2s;
+}
+
+.visitWebsite{
+    background-color: lighten($main-orange, 3%);
+    color: white;
+    border: 2px solid $main-orange;
+    border-radius: 1.8em;
+    margin-top: 15px;
+    padding: 12px;
+}
+
+#studyProjectTitle, #fridgeProjectTitle{
+    left: 0;
+}
+
+#studyImg{
+    opacity: .8;
 }

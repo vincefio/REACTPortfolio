@@ -43,6 +43,8 @@ nav{
     color: darken($main-orange, 20%);
 }
 
+
+
 .bodyWrap{
     display: grid;
     grid-template-columns: 1fr;
@@ -227,4 +229,8 @@ padding: 20px;
 
 #studyImg{
     opacity: .8;
+}
+
+br{
+    margin-bottom: 1.5em !important;
 }

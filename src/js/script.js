@@ -8,7 +8,8 @@ $(document).ready(function () {
     $(window).scroll(function(){
         var positionTop;
         positionTop = $(document).scrollTop();
-        console.log(positionTop)
+        //console.log(positionTop)
+        console.log($(window).width())
 
         /*switch(positionTop){
             case (positionTop > 155):
@@ -23,7 +24,6 @@ $(document).ready(function () {
                 break;
             default:
                 console.log(positionTop)
-
         }*/
 
        if(positionTop > 155){
@@ -43,15 +43,15 @@ $(document).ready(function () {
     $('.portfolioSingleProjectWrap').hover(
         function(){ 
             //alert('working')
-            $('.portfolioImg', this).toggleClass('displayNone', 1000)
+            $('.portfolioImg', this).toggleClass('displayNone')
             $('.projectTitle', this).toggleClass('displayNone') 
             $('.portfolioProjectDescription', this).toggleClass('displayNone')    
         }
     )
 
-    new TypeIt('#catchPhrase', {
-        //strings: ["Design...", "Create...", "Inspire"],
-        speed:150,
+      new TypeIt('#catchPhrase', {
+        strings: ["Design...<br>", "Create...<br>", "Inspire"],
+        speed: 50,
         waitUntilVisible: true
       }).go();
 

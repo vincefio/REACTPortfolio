@@ -92,6 +92,37 @@ body {
   max-width: 65%;
   margin: 0 auto; }
 
+.designQualityWrap {
+  margin-top: 10px; }
+
+.aboutBodyText {
+  margin-bottom: 20px; }
+
+#codeForFuture {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #d87b00; }
+
+.firstTwo {
+  margin-top: 10px; }
+
 .techIcon {
   padding: 20px;
   width: 7em; }
+
+/*Image Fade In Logic*/
+.fadeIn {
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s; }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }

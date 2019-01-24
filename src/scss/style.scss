@@ -133,7 +133,35 @@ nav{
     margin: 0 auto;
 }
 
+.designQualityWrap{
+    margin-top: 10px;
+}
+
+.aboutBodyText{
+    margin-bottom: 20px;
+}
+
+#codeForFuture{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: $dark-orange;
+}
+
+.firstTwo{
+    margin-top: 10px;
+}
+
 .techIcon{
 padding: 20px;
    width: 7em; 
+}
+
+/*Image Fade In Logic*/
+.fadeIn{
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

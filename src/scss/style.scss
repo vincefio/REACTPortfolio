@@ -3,7 +3,9 @@ $main-purple: rgb(130, 55, 112);
 $main-orange: rgb(255, 172, 63);
 $dark-orange: darken($main-orange, 20%);
 $main-grey: rgb(144,142,142);
-$header-font: 'Quicksand', sans-serif;
+$dark-grey: darken($main-grey, 17%);
+$main-font: 'Quicksand', sans-serif;
+
 
 *{
     box-sizing: border-box;
@@ -12,8 +14,7 @@ $header-font: 'Quicksand', sans-serif;
   }
 
 body {
-    //background: $bg-color2;
-    //color:$color;
+   font-family: $main-font;
 }
 
 nav{
@@ -47,20 +48,20 @@ nav{
     grid-template-columns: 1fr;
 }
 
-.bodyDiv:nth-child(odd){
-    //background-color: blue;
+.bodyDiv:nth-child(even){
+    background-color: lighten($main-orange, 20%);
 }
 
 .headerWrap{
     height: 90vh;
     //background-color: lighten($main-purple, 50%)
-    font-family: 'Quicksand', sans-serif;
+    font-family: $main-font;
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
 }
 
 #workLink{
-    font-family: 'Quicksand', sans-serif;
+    font-family: $main-font;
     height: 85px;
     line-height: 78px;
     font-size: 1.4em;
@@ -94,3 +95,45 @@ nav{
 
 /*********ABOUT ME SECTION************/
 /*************************************/
+
+.sectionHeader{
+    text-align: center;
+}
+
+#profilePic{
+    max-width: 80%;
+    margin: 27px auto;
+    display: block;
+    border-radius: 12em;
+}
+
+.designQualityWrap{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.designQualities{
+    //clip-path: polygon(50% 0%, 100% 25%, 100% 76%, 50% 100%, 0% 75%, 0% 25%);
+    //background-color: black;
+    //padding: 20px;
+}
+
+#designWrap{
+    text-align: center;
+    color: $dark-grey;
+    padding: 10px;
+}
+
+.iconWrap{
+    clip-path: polygon(50% 0%, 100% 25%, 100% 76%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: rgb(234, 232, 229);
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.techIcon{
+padding: 20px;
+   width: 7em; 
+}

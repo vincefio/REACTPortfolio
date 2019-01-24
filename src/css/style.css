@@ -4,6 +4,9 @@
   padding: 0;
   margin: 0; }
 
+body {
+  font-family: "Quicksand", sans-serif; }
+
 .navIcon {
   color: #ffac3f; }
 
@@ -22,14 +25,17 @@
   display: grid;
   grid-template-columns: 1fr; }
 
+.bodyDiv:nth-child(even) {
+  background-color: #ffd8a5; }
+
 .headerWrap {
   height: 90vh;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   display: grid;
   grid-template-rows: 1fr 3fr 1fr; }
 
 #workLink {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   height: 85px;
   line-height: 78px;
   font-size: 1.4em;
@@ -59,3 +65,33 @@
 
 /*********ABOUT ME SECTION************/
 /*************************************/
+.sectionHeader {
+  text-align: center; }
+
+#profilePic {
+  max-width: 80%;
+  margin: 27px auto;
+  display: block;
+  border-radius: 12em; }
+
+.designQualityWrap {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em; }
+
+#designWrap {
+  text-align: center;
+  color: #656363;
+  padding: 10px; }
+
+.iconWrap {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 76%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 76%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: #eae8e5;
+  max-width: 65%;
+  margin: 0 auto; }
+
+.techIcon {
+  padding: 20px;
+  width: 7em; }

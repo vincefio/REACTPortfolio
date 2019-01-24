@@ -8,23 +8,9 @@ $(document).ready(function () {
     $(window).scroll(function(){
         var positionTop;
         positionTop = $(document).scrollTop();
-        //console.log(positionTop)
-        console.log($(window).width())
+        console.log(positionTop)
+        //console.log($(window).width())
 
-        /*switch(positionTop){
-            case (positionTop > 155):
-            //alert('hit')
-                $('#profilePic').addClass('fadeIn')
-                break;
-            case(positionTop > 570):
-                $('.firstTwo').addClass('animated rollIn')
-                break;
-            case(positionTop > 800):
-                $('.secondTwo').addClass('animated rollIn')
-                break;
-            default:
-                console.log(positionTop)
-        }*/
 
        if(positionTop > 155){
             //$('#aboutMeHeader').addClass('animated rollIn')
@@ -35,6 +21,18 @@ $(document).ready(function () {
         }
         if(positionTop > 800){
             $('.secondTwo').addClass('animated rollIn')
+        }
+        if(positionTop > 1230){
+            $('#portfolioProject1').addClass('animated fadeIn')
+        }
+        if(positionTop > 1530){
+            $('#portfolioProject2').addClass('animated fadeIn')
+        }
+        if(positionTop > 1830){
+            $('#portfolioProject3').addClass('animated fadeIn')
+        }
+        if(positionTop > 2130){
+            $('#portfolioProject4').addClass('animated fadeIn')
         }
 
     })

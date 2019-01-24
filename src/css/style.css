@@ -153,6 +153,9 @@ body {
 .portfolioProjectDescription div {
   margin-bottom: 35px; }
 
+#portfolioProject4 {
+  background-color: #333; }
+
 .projectTitle {
   color: white;
   font-size: 3em;
@@ -177,6 +180,3 @@ body {
 
 #studyImg {
   opacity: .8; }
-
-.br {
-  margin-bottom: 1.5em !important; }

@@ -28,16 +28,20 @@ $(document).ready(function () {
         if(positionTop > 570){
             $('.firstTwo').addClass('animated rollIn')
         }
-        /*if(positionTop > 685){
-            $('.firstTwoWrap').addClass('animated fadeInRightBig')
-        }*/
         if(positionTop > 800){
             $('.secondTwo').addClass('animated rollIn')
         }
-        /*if(positionTop > 917){
-            $('.secondßTwoWrap').addClass('animated fadeInRightBig')
-        }*/ 
+
     })
+
+    /*HOVER EVENTS FOR PORTFOLIO*/
+    $('.portfolioSingleProjectWrap').hover(
+        function(){ 
+            //alert('working')
+            $('.projectTitle').toggleClass('displayNone') 
+            $('.portfolioProjectDescription').toggleClass('displayNone')
+        }
+    )
 
     new TypeIt('#catchPhrase', {
         //strings: ["Design...", "Create...", "Inspire"],

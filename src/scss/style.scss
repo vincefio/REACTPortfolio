@@ -54,6 +54,8 @@ nav{
     background-color: lighten($main-orange, 20%);
 }
 
+
+
 .headerWrap{
     height: 90vh;
     //background-color: lighten($main-purple, 50%)
@@ -233,4 +235,10 @@ padding: 20px;
 
 #studyImg{
     opacity: .8;
+}
+
+/***********CONTACT*************/
+/*******************************/
+#contactHeader{
+    color: $dark-grey;
 }

@@ -27,6 +27,10 @@ body {
       height: 95px;
       margin: 0 auto;
       margin-top: 5rem; } }
+  @media (min-width: 900px) {
+    #furiousLogo {
+      height: 95px;
+      margin-top: 40px; } }
 
 .material-icons {
   color: #d87b00; }
@@ -69,6 +73,10 @@ body {
     #catchPhrase {
       font-size: 3.3em;
       line-height: 1.3; } }
+  @media (min-width: 900px) {
+    #catchPhrase {
+      font-size: 1.7em;
+      margin-top: 0; } }
 
 #drivenToText {
   color: #a55e00;
@@ -84,6 +92,12 @@ body {
       margin-left: 120px;
       margin-top: 40px;
       margin-bottom: 70px; } }
+  @media (min-width: 900px) {
+    #drivenToText {
+      font-size: 25px;
+      margin-left: 30%;
+      margin-top: 30px;
+      margin-bottom: 30px; } }
 
 /*********ABOUT ME SECTION************/
 /*************************************/
@@ -107,11 +121,19 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em; }
+  @media (min-width: 600px) {
+    .designQualityWrap {
+      grid-gap: 0; } }
 
 #designWrap {
   text-align: center;
   color: #656363;
   padding: 10px; }
+
+@media (min-width: 900px) {
+  .picTextWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
 
 .iconWrap {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 76%, 50% 100%, 0% 75%, 0% 25%);
@@ -119,10 +141,17 @@ body {
   background-color: #eae8e5;
   max-width: 65%;
   margin: 0 auto; }
+  @media (min-width: 900px) {
+    .iconWrap {
+      width: 30%; } }
 
 @media (min-width: 600px) {
   .iconTextWrap {
     font-size: 1.3em; } }
+
+@media (min-width: 900px) {
+  .iconTextWrap {
+    font-size: 1.1em; } }
 
 .designQualityWrap {
   margin-top: 10px; }
@@ -136,12 +165,18 @@ body {
   @media (min-width: 600px) {
     .aboutBodyName {
       font-size: 5em; } }
+  @media (min-width: 900px) {
+    .aboutBodyName {
+      font-size: 4em; } }
 
 .aboutBodyText {
   margin-bottom: 20px; }
   @media (min-width: 600px) {
     .aboutBodyText {
       font-size: 3em; } }
+  @media (min-width: 900px) {
+    .aboutBodyText {
+      font-size: 2em; } }
 
 #codeForFuture {
   font-weight: bold;
@@ -177,10 +212,15 @@ body {
 .projectWrapDiv {
   padding: 15px;
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1em; }
+  @media (min-width: 900px) {
+    .projectWrapDiv {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr 1fr; } }
 
 .portfolioSingleProjectWrap {
+  position: relative;
   display: grid;
   background-color: #333; }
 
@@ -191,6 +231,10 @@ body {
   padding: 15px;
   color: white;
   font-size: 1.2em; }
+  @media (min-width: 600px) {
+    .portfolioProjectDescription {
+      position: static;
+      font-size: 3em; } }
 
 .portfolioImg {
   min-height: 100% !important; }

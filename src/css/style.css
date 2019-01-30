@@ -132,10 +132,11 @@ body {
       grid-template-columns: repeat(4, 1fr); } }
 
 .aboutTextInnerWrap {
-  padding-top: 13%; }
+  padding-top: 8px; }
   @media (min-width: 900px) {
     .aboutTextInnerWrap {
-      text-align: left; } }
+      text-align: left;
+      padding-top: 13%; } }
 
 #designWrap {
   text-align: center;
@@ -274,7 +275,7 @@ body {
       margin-top: 25%; } }
   @media (min-width: 900px) {
     .projectTitle {
-      margin-left: 0; } }
+      margin-left: 7%; } }
 
 .displayNone {
   display: none; }

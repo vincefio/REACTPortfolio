@@ -199,10 +199,11 @@ nav{
 }
 
 .aboutTextInnerWrap{
-    padding-top: 13%;
+    padding-top: 8px;
 
     @include desktop{
         text-align: left;
+        padding-top: 13%;
     }
 }
 
@@ -370,7 +371,7 @@ padding: 20px;
     }
 
     @include desktop{
-        margin-left: 0;
+        margin-left: 7%;
     }
 }
 

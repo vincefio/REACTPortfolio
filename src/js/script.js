@@ -13,25 +13,87 @@ $(document).ready(function () {
     
                 if(positionTop > 155){
                     //$('#aboutMeHeader').addClass('animated rollIn')
-                    $('#profilePic').addClass('fadeIn')
+                    //console.log('window ' + $(window).width())
+                    if($(window).width() < 900){
+                        //console.log('hit')
+                        $('#profilePic').addClass('fadeIn')
+                    }
+                    
                 }
+                if(positionTop > 200){
+                    if($(window).width() > 900){
+                        $('#profilePic').addClass('fadeIn')
+
+                    }
+                }
+
+                if(positionTop > 525){
+                    if($(window).width() > 900){
+                        $('.firstTwo').addClass('animated rollIn')
+                        $('.secondTwo').addClass('animated rollIn')
+                    }
+                }
+    
                 if(positionTop > 570){
-                    $('.firstTwo').addClass('animated rollIn')
+                    if($(window).width() > 900){
+
+                    }else{
+                        $('.firstTwo').addClass('animated rollIn')
+                    }
+                    
                 }
                 if(positionTop > 800){
-                    $('.secondTwo').addClass('animated rollIn')
+                    if($(window).width() > 900){
+                        
+                    }else{
+                        $('.secondTwo').addClass('animated rollIn') 
+                    }
+                    
                 }
+
+                if(positionTop > 1000){
+                    if($(window).width() > 900){
+                        $('.portfolioProjectFirst2').addClass('animated fadeIn')
+                    }
+                }
+
+                if(positionTop > 1320){
+                    if($(window).width() > 900){
+                        $('.portfolioProjectSecond2').addClass('animated fadeIn')
+                    }
+                }
+
                 if(positionTop > 1230){
-                    $('#portfolioProject1').addClass('animated fadeIn')
+                    if($(window).width() > 900){
+                        
+                    }else{
+                        $('#portfolioProject1').addClass('animated fadeIn')
+                    }
+                    
                 }
                 if(positionTop > 1530){
-                    $('#portfolioProject2').addClass('animated fadeIn')
+                    if($(window).width() > 900){
+                        
+                    }else{
+                        $('#portfolioProject2').addClass('animated fadeIn')
+                    }
+                    
                 }
                 if(positionTop > 1830){
-                    $('#portfolioProject3').addClass('animated fadeIn')
+                    if($(window).width() > 900){
+                        
+                    }else{
+                        $('#portfolioProject3').addClass('animated fadeIn')
+                    }
+                    
                 }
                 if(positionTop > 2130){
-                    $('#portfolioProject4').addClass('animated fadeIn')
+                    if($(window).width() > 900){
+                        
+                    }else{
+                        $('#portfolioProject4').addClass('animated fadeIn')
+                    }
+
                 }
 
     

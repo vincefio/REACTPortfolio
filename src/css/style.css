@@ -22,6 +22,11 @@ body {
   height: 80px;
   max-width: 100%;
   margin-top: 3.5rem; }
+  @media (min-width: 600px) {
+    #furiousLogo {
+      height: 95px;
+      margin: 0 auto;
+      margin-top: 5rem; } }
 
 .material-icons {
   color: #d87b00; }
@@ -60,6 +65,10 @@ body {
   text-align: center;
   color: #656363;
   font-weight: 700px; }
+  @media (min-width: 600px) {
+    #catchPhrase {
+      font-size: 3.3em;
+      line-height: 1.3; } }
 
 #drivenToText {
   color: #a55e00;
@@ -67,17 +76,31 @@ body {
   margin-left: 45px;
   margin-top: 23px;
   margin-bottom: 30px; }
+  @media (min-width: 600px) {
+    #drivenToText {
+      color: #a55e00;
+      font-weight: 450;
+      font-size: 43px;
+      margin-left: 120px;
+      margin-top: 40px;
+      margin-bottom: 70px; } }
 
 /*********ABOUT ME SECTION************/
 /*************************************/
 .sectionHeader {
   text-align: center; }
+  @media (min-width: 600px) {
+    .sectionHeader {
+      font-size: 5em; } }
 
 #profilePic {
   max-width: 80%;
   margin: 27px auto;
   display: block;
   border-radius: 12em; }
+  @media (min-width: 600px) {
+    #profilePic {
+      max-width: 55%; } }
 
 .designQualityWrap {
   margin-top: 25px;
@@ -97,11 +120,28 @@ body {
   max-width: 65%;
   margin: 0 auto; }
 
+@media (min-width: 600px) {
+  .iconTextWrap {
+    font-size: 1.3em; } }
+
 .designQualityWrap {
   margin-top: 10px; }
+  @media (min-width: 600px) {
+    .designQualityWrap {
+      margin-top: 25px;
+      font-size: 1.5em; } }
+
+.aboutBodyName {
+  margin-bottom: 20px; }
+  @media (min-width: 600px) {
+    .aboutBodyName {
+      font-size: 5em; } }
 
 .aboutBodyText {
   margin-bottom: 20px; }
+  @media (min-width: 600px) {
+    .aboutBodyText {
+      font-size: 3em; } }
 
 #codeForFuture {
   font-weight: bold;
@@ -168,6 +208,11 @@ body {
   margin-top: 27%;
   text-align: center;
   position: absolute; }
+  @media (min-width: 600px) {
+    .projectTitle {
+      font-size: 4em;
+      margin-left: 13%;
+      margin-top: 25%; } }
 
 .displayNone {
   display: none; }

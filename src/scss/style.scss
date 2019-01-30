@@ -177,6 +177,10 @@ nav{
     @include tablet{
         max-width: 55%;
     }
+    
+    @include desktop{
+        border-radius: 3em;
+    }
 }
 
 .designQualityWrap{
@@ -188,12 +192,18 @@ nav{
     @include tablet{
         grid-gap: 0;
     }
+
+    @include desktop{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
-.designQualities{
-    //clip-path: polygon(50% 0%, 100% 25%, 100% 76%, 50% 100%, 0% 75%, 0% 25%);
-    //background-color: black;
-    //padding: 20px;
+.aboutTextInnerWrap{
+    padding-top: 13%;
+
+    @include desktop{
+        text-align: left;
+    }
 }
 
 #designWrap{
@@ -201,7 +211,7 @@ nav{
     color: $dark-grey;
     padding: 10px;
 
-
+ 
 }
 
 .picTextWrap{
@@ -218,7 +228,7 @@ nav{
     margin: 0 auto;
 
     @include desktop{
-        width: 30%;
+        width: 60%;
     }
 }
 
@@ -249,7 +259,7 @@ nav{
     }
 
     @include desktop{
-        font-size: 4em;
+        font-size: 3em;
     }
 }
 
@@ -327,6 +337,10 @@ padding: 20px;
         position: static;
         font-size: 3em;
     }
+
+    @include desktop{
+        font-size: 2em;
+    }
 }
 
 .portfolioImg{
@@ -354,6 +368,10 @@ padding: 20px;
         margin-left: 13%;
         margin-top: 25%;
     }
+
+    @include desktop{
+        margin-left: 0;
+    }
 }
 
 .displayNone{
@@ -368,6 +386,10 @@ padding: 20px;
     border-radius: 1.8em;
     margin-top: 15px;
     padding: 12px;
+
+    @include desktop{
+        font-size: .6em;
+    }
 }
 
 #studyProjectTitle, #fridgeProjectTitle{

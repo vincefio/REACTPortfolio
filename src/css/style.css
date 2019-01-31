@@ -43,7 +43,7 @@ body {
   background-color: #ffd8a5; }
 
 .headerWrap {
-  height: 90vh;
+  height: 100vh;
   font-family: "Quicksand", sans-serif;
   display: grid;
   grid-template-rows: 1fr 3fr 1fr; }
@@ -66,6 +66,7 @@ body {
   background-color: #d87b00; }
 
 #catchPhrase {
+  font-size: 2rem;
   text-align: center;
   color: #656363;
   font-weight: 700px; }
@@ -235,7 +236,8 @@ body {
 .portfolioSingleProjectWrap {
   position: relative;
   display: grid;
-  background-color: #333; }
+  background-color: #333;
+  max-height: 500px; }
 
 .portfolioProjectDescription {
   text-align: center;
@@ -251,9 +253,6 @@ body {
   @media (min-width: 900px) {
     .portfolioProjectDescription {
       font-size: 2em; } }
-
-.portfolioImg {
-  min-height: 100% !important; }
 
 .portfolioProjectDescription div {
   margin-bottom: 35px; }

@@ -43,24 +43,28 @@ body {
   background-color: #ffd8a5; }
 
 .headerWrap {
-  height: 100vh;
   font-family: "Quicksand", sans-serif;
   display: grid;
-  grid-template-rows: 1fr 3fr 1fr; }
+  grid-template-rows: 1fr 2.5fr 1fr; }
 
 #workLink {
   font-family: "Quicksand", sans-serif;
-  height: 85px;
-  line-height: 78px;
+  height: 65px;
+  line-height: 60px;
   font-size: 1.4em;
   border-radius: 2em;
-  width: 300px;
+  width: 220px;
   background-color: #ffb34e;
   color: white;
   border: 2px solid #ffac3f;
   display: block;
   margin: 0 auto;
   bottom: 10px; }
+  @media (min-width: 600px) {
+    #workLink {
+      height: 85px;
+      line-height: 78px;
+      width: 300px; } }
 
 #workLink:hover {
   background-color: #d87b00; }
@@ -110,12 +114,13 @@ body {
 
 #profilePic {
   max-width: 80%;
-  margin: 27px auto;
+  margin: 10px auto;
   display: block;
   border-radius: 12em; }
   @media (min-width: 600px) {
     #profilePic {
-      max-width: 55%; } }
+      max-width: 55%;
+      margin: 27px auto; } }
   @media (min-width: 900px) {
     #profilePic {
       border-radius: 3em; } }

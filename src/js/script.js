@@ -63,6 +63,12 @@ $(document).ready(function () {
                     }
                 }
 
+                if(positionTop > 1650){
+                    if($(window).width() > 900){
+                        $('.portfolioProjectThird2').addClass('animated fadeIn')
+                    }
+                }
+
                 if(positionTop > 1230){
                     if($(window).width() > 900){
                         
@@ -92,6 +98,22 @@ $(document).ready(function () {
                         
                     }else{
                         $('#portfolioProject4').addClass('animated fadeIn')
+                    }
+
+                }
+                if(positionTop > 2430){
+                    if($(window).width() > 900){
+                        
+                    }else{
+                        $('#portfolioProject5').addClass('animated fadeIn')
+                    }
+
+                }
+                if(positionTop > 2730){
+                    if($(window).width() > 900){
+                        
+                    }else{
+                        $('#portfolioProject6').addClass('animated fadeIn')
                     }
 
                 }

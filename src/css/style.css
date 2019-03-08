@@ -271,7 +271,7 @@ body {
 .portfolioProjectDescription div {
   margin-bottom: 35px; }
 
-#portfolioProject4 {
+#portfolioProject6 {
   background-color: #333; }
 
 .projectTitle {
@@ -289,6 +289,22 @@ body {
   @media (min-width: 900px) {
     .projectTitle {
       margin-left: 7%; } }
+
+.middleTwo {
+  color: white;
+  font-size: 3em;
+  left: 12%;
+  margin-top: 5%;
+  text-align: center;
+  position: absolute; }
+  @media (min-width: 600px) {
+    .middleTwo {
+      font-size: 4em;
+      margin-left: 12%;
+      margin-top: 15%; } }
+  @media (min-width: 900px) {
+    .middleTwo {
+      margin-left: 5%; } }
 
 #stockTip {
   left: 22%; }

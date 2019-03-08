@@ -107,6 +107,7 @@ $(document).ready(function () {
             //alert('working')
             $('.portfolioImg', this).toggleClass('displayNone')
             $('.projectTitle', this).toggleClass('displayNone') 
+            $('.middleTwo', this).toggleClass('displayNone') 
             $('.portfolioProjectDescription', this).toggleClass('displayNone')    
         }
     )

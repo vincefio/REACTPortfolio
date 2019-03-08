@@ -231,12 +231,12 @@ body {
 .projectWrapDiv {
   padding: 15px;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1em; }
   @media (min-width: 900px) {
     .projectWrapDiv {
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr 1fr; } }
+      grid-template-rows: 1fr 1fr 1fr; } }
 
 .portfolioSingleProjectWrap {
   position: relative;
